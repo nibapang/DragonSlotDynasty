@@ -15,7 +15,7 @@ workflows:
           keychain initialize
       - name: Fetch signing files
         script: |
-          app-store-connect fetch-signing-files "com.app.dynasty.DragonSlotDynasty" --type IOS_APP_STORE --create --verbose
+          app-store-connect fetch-signing-files "com.app.dragon.DragonSlotDynasty" --type IOS_APP_STORE --create --verbose
       - name: Use system default keychain
         script: |
           keychain add-certificates --verbose
@@ -41,7 +41,7 @@ workflows:
         issuer_id: $APP_STORE_CONNECT_ISSUER_ID # Alphanumeric value that identifies who created the API key
       email:
         recipients:
-          - "Ptpowpvtltd@icloud.com"
+          - "dsfaexgzoq75@gmx.com"
         notify:
           success: true
           failure: true
