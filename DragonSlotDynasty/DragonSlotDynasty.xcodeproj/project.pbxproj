@@ -77,8 +77,6 @@
 		E90827332D6D78BC00E9F891 /* DragonSlotDynasty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DragonSlotDynasty.entitlements; sourceTree = "<group>"; };
 		E90827342D6D9EEF00E9F891 /* DynastyNavCon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyNavCon.swift; sourceTree = "<group>"; };
 		E90827362D6DA16100E9F891 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E90827382D6DA53400E9F891 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
-		E90827392D6DA53400E9F891 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		E908273A2D6DA54200E9F891 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
 		E908273B2D6DA54200E9F891 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		E908273C2D6DA54A00E9F891 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
@@ -86,7 +84,9 @@
 		E90827412D6DA55C00E9F891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E90827432D6DA55F00E9F891 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E90827442D6DA56000E9F891 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		E90827452D6DA56200E9F891 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E90827462D6DADC200E9F891 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
+		E90827472D6DADC200E9F891 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E90827482D6DADC200E9F891 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,9 +289,9 @@
 			knownRegions = (
 				en,
 				Base,
-				"pt-BR",
 				pl,
 				hi,
+				"es-MX",
 			);
 			mainGroup = E90826E52D6D6C4500E9F891;
 			productRefGroup = E90826EF2D6D6C4500E9F891 /* Products */;
@@ -450,9 +450,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				E90826F82D6D6C4500E9F891 /* Base */,
-				E90827382D6DA53400E9F891 /* pt-BR */,
 				E908273A2D6DA54200E9F891 /* pl */,
 				E908273C2D6DA54A00E9F891 /* hi */,
+				E90827462D6DADC200E9F891 /* es-MX */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -461,9 +461,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				E90826FD2D6D6C4700E9F891 /* Base */,
-				E90827392D6DA53400E9F891 /* pt-BR */,
 				E908273B2D6DA54200E9F891 /* pl */,
 				E908273D2D6DA54A00E9F891 /* hi */,
+				E90827472D6DADC200E9F891 /* es-MX */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -474,7 +474,7 @@
 				E90827412D6DA55C00E9F891 /* en */,
 				E90827432D6DA55F00E9F891 /* hi */,
 				E90827442D6DA56000E9F891 /* pl */,
-				E90827452D6DA56200E9F891 /* pt-BR */,
+				E90827482D6DADC200E9F891 /* es-MX */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
