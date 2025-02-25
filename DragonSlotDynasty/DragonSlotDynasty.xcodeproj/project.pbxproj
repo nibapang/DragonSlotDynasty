@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9439D0DACFB23405ED873569 /* Pods_DragonSlotDynasty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAC9D72FAC058B1DABBB9AA /* Pods_DragonSlotDynasty.framework */; };
+		E90826F22D6D6C4500E9F891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90826F12D6D6C4500E9F891 /* AppDelegate.swift */; };
+		E90826F42D6D6C4500E9F891 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90826F32D6D6C4500E9F891 /* SceneDelegate.swift */; };
+		E90826F62D6D6C4500E9F891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90826F52D6D6C4500E9F891 /* ViewController.swift */; };
+		E90826F92D6D6C4500E9F891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90826F72D6D6C4500E9F891 /* Main.storyboard */; };
+		E90826FB2D6D6C4700E9F891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90826FA2D6D6C4700E9F891 /* Assets.xcassets */; };
+		E90826FE2D6D6C4700E9F891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90826FC2D6D6C4700E9F891 /* LaunchScreen.storyboard */; };
+		E90827092D6D6C4800E9F891 /* DragonSlotDynastyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827082D6D6C4800E9F891 /* DragonSlotDynastyTests.swift */; };
+		E90827132D6D6C4800E9F891 /* DragonSlotDynastyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827122D6D6C4800E9F891 /* DragonSlotDynastyUITests.swift */; };
+		E90827152D6D6C4800E9F891 /* DragonSlotDynastyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827142D6D6C4800E9F891 /* DragonSlotDynastyUITestsLaunchTests.swift */; };
+		E90827222D6D6E3500E9F891 /* DynastySlotDynastyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827212D6D6E3500E9F891 /* DynastySlotDynastyVC.swift */; };
+		E90827242D6D6E5200E9F891 /* DynastyGenrateRanCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827232D6D6E5200E9F891 /* DynastyGenrateRanCardVC.swift */; };
+		E90827262D6D6E7700E9F891 /* DynastyCardGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827252D6D6E7700E9F891 /* DynastyCardGameVC.swift */; };
+		E90827282D6D6EBA00E9F891 /* DynastySettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827272D6D6EBA00E9F891 /* DynastySettingVC.swift */; };
+		E908272A2D6D6EDD00E9F891 /* DynastyRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827292D6D6EDD00E9F891 /* DynastyRadius.swift */; };
+		E908272C2D6D6F9E00E9F891 /* DynastyPrivacyWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908272B2D6D6F9E00E9F891 /* DynastyPrivacyWebVC.swift */; };
+		E90827302D6D760800E9F891 /* UIViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = E908272F2D6D760800E9F891 /* UIViewController+Ext.m */; };
+		E90827322D6D779200E9F891 /* DynastyStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827312D6D779200E9F891 /* DynastyStartVC.swift */; };
+		E90827352D6D9EEF00E9F891 /* DynastyNavCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827342D6D9EEF00E9F891 /* DynastyNavCon.swift */; };
+		E90827372D6DA16200E9F891 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E90827362D6DA16100E9F891 /* GoogleService-Info.plist */; };
+		E90827402D6DA55C00E9F891 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E90827422D6DA55C00E9F891 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E90827052D6D6C4800E9F891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90826E62D6D6C4500E9F891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90826ED2D6D6C4500E9F891;
+			remoteInfo = DragonSlotDynasty;
+		};
+		E908270F2D6D6C4800E9F891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90826E62D6D6C4500E9F891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90826ED2D6D6C4500E9F891;
+			remoteInfo = DragonSlotDynasty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CF54A092D03C7466F18B95B /* Pods-DragonSlotDynasty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragonSlotDynasty.debug.xcconfig"; path = "Target Support Files/Pods-DragonSlotDynasty/Pods-DragonSlotDynasty.debug.xcconfig"; sourceTree = "<group>"; };
+		666B6DD07D1B161370DC9C2C /* Pods-DragonSlotDynasty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragonSlotDynasty.release.xcconfig"; path = "Target Support Files/Pods-DragonSlotDynasty/Pods-DragonSlotDynasty.release.xcconfig"; sourceTree = "<group>"; };
+		8DAC9D72FAC058B1DABBB9AA /* Pods_DragonSlotDynasty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragonSlotDynasty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90826EE2D6D6C4500E9F891 /* DragonSlotDynasty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonSlotDynasty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90826F12D6D6C4500E9F891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E90826F32D6D6C4500E9F891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E90826F52D6D6C4500E9F891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E90826F82D6D6C4500E9F891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E90826FA2D6D6C4700E9F891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E90826FD2D6D6C4700E9F891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E90826FF2D6D6C4700E9F891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90827042D6D6C4800E9F891 /* DragonSlotDynastyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonSlotDynastyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90827082D6D6C4800E9F891 /* DragonSlotDynastyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonSlotDynastyTests.swift; sourceTree = "<group>"; };
+		E908270E2D6D6C4800E9F891 /* DragonSlotDynastyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonSlotDynastyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90827122D6D6C4800E9F891 /* DragonSlotDynastyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonSlotDynastyUITests.swift; sourceTree = "<group>"; };
+		E90827142D6D6C4800E9F891 /* DragonSlotDynastyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonSlotDynastyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E90827212D6D6E3500E9F891 /* DynastySlotDynastyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastySlotDynastyVC.swift; sourceTree = "<group>"; };
+		E90827232D6D6E5200E9F891 /* DynastyGenrateRanCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyGenrateRanCardVC.swift; sourceTree = "<group>"; };
+		E90827252D6D6E7700E9F891 /* DynastyCardGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyCardGameVC.swift; sourceTree = "<group>"; };
+		E90827272D6D6EBA00E9F891 /* DynastySettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastySettingVC.swift; sourceTree = "<group>"; };
+		E90827292D6D6EDD00E9F891 /* DynastyRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyRadius.swift; sourceTree = "<group>"; };
+		E908272B2D6D6F9E00E9F891 /* DynastyPrivacyWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyPrivacyWebVC.swift; sourceTree = "<group>"; };
+		E908272D2D6D760700E9F891 /* DragonSlotDynasty-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DragonSlotDynasty-Bridging-Header.h"; sourceTree = "<group>"; };
+		E908272E2D6D760800E9F891 /* UIViewController+Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Ext.h"; sourceTree = "<group>"; };
+		E908272F2D6D760800E9F891 /* UIViewController+Ext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Ext.m"; sourceTree = "<group>"; };
+		E90827312D6D779200E9F891 /* DynastyStartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyStartVC.swift; sourceTree = "<group>"; };
+		E90827332D6D78BC00E9F891 /* DragonSlotDynasty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DragonSlotDynasty.entitlements; sourceTree = "<group>"; };
+		E90827342D6D9EEF00E9F891 /* DynastyNavCon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyNavCon.swift; sourceTree = "<group>"; };
+		E90827362D6DA16100E9F891 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E90827382D6DA53400E9F891 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		E90827392D6DA53400E9F891 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E908273A2D6DA54200E9F891 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		E908273B2D6DA54200E9F891 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E908273C2D6DA54A00E9F891 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		E908273D2D6DA54A00E9F891 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E90827412D6DA55C00E9F891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E90827432D6DA55F00E9F891 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E90827442D6DA56000E9F891 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E90827452D6DA56200E9F891 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E90826EB2D6D6C4500E9F891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9439D0DACFB23405ED873569 /* Pods_DragonSlotDynasty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90827012D6D6C4800E9F891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E908270B2D6D6C4800E9F891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68A97E1BFA78D4961FA9DF3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CF54A092D03C7466F18B95B /* Pods-DragonSlotDynasty.debug.xcconfig */,
+				666B6DD07D1B161370DC9C2C /* Pods-DragonSlotDynasty.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E90826E52D6D6C4500E9F891 = {
+			isa = PBXGroup;
+			children = (
+				E90826F02D6D6C4500E9F891 /* DragonSlotDynasty */,
+				E90827072D6D6C4800E9F891 /* DragonSlotDynastyTests */,
+				E90827112D6D6C4800E9F891 /* DragonSlotDynastyUITests */,
+				E90826EF2D6D6C4500E9F891 /* Products */,
+				68A97E1BFA78D4961FA9DF3E /* Pods */,
+				F48E3FC3E677C76806B462D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E90826EF2D6D6C4500E9F891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E90826EE2D6D6C4500E9F891 /* DragonSlotDynasty.app */,
+				E90827042D6D6C4800E9F891 /* DragonSlotDynastyTests.xctest */,
+				E908270E2D6D6C4800E9F891 /* DragonSlotDynastyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E90826F02D6D6C4500E9F891 /* DragonSlotDynasty */ = {
+			isa = PBXGroup;
+			children = (
+				E90827362D6DA16100E9F891 /* GoogleService-Info.plist */,
+				E90827332D6D78BC00E9F891 /* DragonSlotDynasty.entitlements */,
+				E90826F12D6D6C4500E9F891 /* AppDelegate.swift */,
+				E90826F32D6D6C4500E9F891 /* SceneDelegate.swift */,
+				E90826F52D6D6C4500E9F891 /* ViewController.swift */,
+				E90827212D6D6E3500E9F891 /* DynastySlotDynastyVC.swift */,
+				E90827232D6D6E5200E9F891 /* DynastyGenrateRanCardVC.swift */,
+				E90827252D6D6E7700E9F891 /* DynastyCardGameVC.swift */,
+				E90827272D6D6EBA00E9F891 /* DynastySettingVC.swift */,
+				E90827292D6D6EDD00E9F891 /* DynastyRadius.swift */,
+				E908272B2D6D6F9E00E9F891 /* DynastyPrivacyWebVC.swift */,
+				E90827312D6D779200E9F891 /* DynastyStartVC.swift */,
+				E90827342D6D9EEF00E9F891 /* DynastyNavCon.swift */,
+				E908272E2D6D760800E9F891 /* UIViewController+Ext.h */,
+				E908272F2D6D760800E9F891 /* UIViewController+Ext.m */,
+				E90827422D6DA55C00E9F891 /* Localizable.strings */,
+				E90826F72D6D6C4500E9F891 /* Main.storyboard */,
+				E90826FA2D6D6C4700E9F891 /* Assets.xcassets */,
+				E90826FC2D6D6C4700E9F891 /* LaunchScreen.storyboard */,
+				E90826FF2D6D6C4700E9F891 /* Info.plist */,
+				E908272D2D6D760700E9F891 /* DragonSlotDynasty-Bridging-Header.h */,
+			);
+			path = DragonSlotDynasty;
+			sourceTree = "<group>";
+		};
+		E90827072D6D6C4800E9F891 /* DragonSlotDynastyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E90827082D6D6C4800E9F891 /* DragonSlotDynastyTests.swift */,
+			);
+			path = DragonSlotDynastyTests;
+			sourceTree = "<group>";
+		};
+		E90827112D6D6C4800E9F891 /* DragonSlotDynastyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E90827122D6D6C4800E9F891 /* DragonSlotDynastyUITests.swift */,
+				E90827142D6D6C4800E9F891 /* DragonSlotDynastyUITestsLaunchTests.swift */,
+			);
+			path = DragonSlotDynastyUITests;
+			sourceTree = "<group>";
+		};
+		F48E3FC3E677C76806B462D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DAC9D72FAC058B1DABBB9AA /* Pods_DragonSlotDynasty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E90826ED2D6D6C4500E9F891 /* DragonSlotDynasty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90827182D6D6C4800E9F891 /* Build configuration list for PBXNativeTarget "DragonSlotDynasty" */;
+			buildPhases = (
+				9B1D54D37C20303B656F9170 /* [CP] Check Pods Manifest.lock */,
+				E90826EA2D6D6C4500E9F891 /* Sources */,
+				E90826EB2D6D6C4500E9F891 /* Frameworks */,
+				E90826EC2D6D6C4500E9F891 /* Resources */,
+				AA36EFE5E52F1004629EF18D /* [CP] Embed Pods Frameworks */,
+				2E5BDE1D251CB12DB9702789 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragonSlotDynasty;
+			productName = DragonSlotDynasty;
+			productReference = E90826EE2D6D6C4500E9F891 /* DragonSlotDynasty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E90827032D6D6C4800E9F891 /* DragonSlotDynastyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E908271B2D6D6C4800E9F891 /* Build configuration list for PBXNativeTarget "DragonSlotDynastyTests" */;
+			buildPhases = (
+				E90827002D6D6C4800E9F891 /* Sources */,
+				E90827012D6D6C4800E9F891 /* Frameworks */,
+				E90827022D6D6C4800E9F891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90827062D6D6C4800E9F891 /* PBXTargetDependency */,
+			);
+			name = DragonSlotDynastyTests;
+			productName = DragonSlotDynastyTests;
+			productReference = E90827042D6D6C4800E9F891 /* DragonSlotDynastyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E908270D2D6D6C4800E9F891 /* DragonSlotDynastyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E908271E2D6D6C4800E9F891 /* Build configuration list for PBXNativeTarget "DragonSlotDynastyUITests" */;
+			buildPhases = (
+				E908270A2D6D6C4800E9F891 /* Sources */,
+				E908270B2D6D6C4800E9F891 /* Frameworks */,
+				E908270C2D6D6C4800E9F891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90827102D6D6C4800E9F891 /* PBXTargetDependency */,
+			);
+			name = DragonSlotDynastyUITests;
+			productName = DragonSlotDynastyUITests;
+			productReference = E908270E2D6D6C4800E9F891 /* DragonSlotDynastyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E90826E62D6D6C4500E9F891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E90826ED2D6D6C4500E9F891 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					E90827032D6D6C4800E9F891 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E90826ED2D6D6C4500E9F891;
+					};
+					E908270D2D6D6C4800E9F891 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E90826ED2D6D6C4500E9F891;
+					};
+				};
+			};
+			buildConfigurationList = E90826E92D6D6C4500E9F891 /* Build configuration list for PBXProject "DragonSlotDynasty" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+				pl,
+				hi,
+			);
+			mainGroup = E90826E52D6D6C4500E9F891;
+			productRefGroup = E90826EF2D6D6C4500E9F891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E90826ED2D6D6C4500E9F891 /* DragonSlotDynasty */,
+				E90827032D6D6C4800E9F891 /* DragonSlotDynastyTests */,
+				E908270D2D6D6C4800E9F891 /* DragonSlotDynastyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E90826EC2D6D6C4500E9F891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90827402D6DA55C00E9F891 /* Localizable.strings in Resources */,
+				E90826FE2D6D6C4700E9F891 /* LaunchScreen.storyboard in Resources */,
+				E90827372D6DA16200E9F891 /* GoogleService-Info.plist in Resources */,
+				E90826FB2D6D6C4700E9F891 /* Assets.xcassets in Resources */,
+				E90826F92D6D6C4500E9F891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90827022D6D6C4800E9F891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E908270C2D6D6C4800E9F891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E5BDE1D251CB12DB9702789 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragonSlotDynasty/Pods-DragonSlotDynasty-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragonSlotDynasty/Pods-DragonSlotDynasty-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DragonSlotDynasty/Pods-DragonSlotDynasty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B1D54D37C20303B656F9170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DragonSlotDynasty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA36EFE5E52F1004629EF18D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragonSlotDynasty/Pods-DragonSlotDynasty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragonSlotDynasty/Pods-DragonSlotDynasty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DragonSlotDynasty/Pods-DragonSlotDynasty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E90826EA2D6D6C4500E9F891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90827302D6D760800E9F891 /* UIViewController+Ext.m in Sources */,
+				E90827222D6D6E3500E9F891 /* DynastySlotDynastyVC.swift in Sources */,
+				E90826F62D6D6C4500E9F891 /* ViewController.swift in Sources */,
+				E90827352D6D9EEF00E9F891 /* DynastyNavCon.swift in Sources */,
+				E908272A2D6D6EDD00E9F891 /* DynastyRadius.swift in Sources */,
+				E90826F22D6D6C4500E9F891 /* AppDelegate.swift in Sources */,
+				E90827322D6D779200E9F891 /* DynastyStartVC.swift in Sources */,
+				E90827262D6D6E7700E9F891 /* DynastyCardGameVC.swift in Sources */,
+				E90827242D6D6E5200E9F891 /* DynastyGenrateRanCardVC.swift in Sources */,
+				E90827282D6D6EBA00E9F891 /* DynastySettingVC.swift in Sources */,
+				E90826F42D6D6C4500E9F891 /* SceneDelegate.swift in Sources */,
+				E908272C2D6D6F9E00E9F891 /* DynastyPrivacyWebVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90827002D6D6C4800E9F891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90827092D6D6C4800E9F891 /* DragonSlotDynastyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E908270A2D6D6C4800E9F891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90827152D6D6C4800E9F891 /* DragonSlotDynastyUITestsLaunchTests.swift in Sources */,
+				E90827132D6D6C4800E9F891 /* DragonSlotDynastyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E90827062D6D6C4800E9F891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90826ED2D6D6C4500E9F891 /* DragonSlotDynasty */;
+			targetProxy = E90827052D6D6C4800E9F891 /* PBXContainerItemProxy */;
+		};
+		E90827102D6D6C4800E9F891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90826ED2D6D6C4500E9F891 /* DragonSlotDynasty */;
+			targetProxy = E908270F2D6D6C4800E9F891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E90826F72D6D6C4500E9F891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90826F82D6D6C4500E9F891 /* Base */,
+				E90827382D6DA53400E9F891 /* pt-BR */,
+				E908273A2D6DA54200E9F891 /* pl */,
+				E908273C2D6DA54A00E9F891 /* hi */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E90826FC2D6D6C4700E9F891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90826FD2D6D6C4700E9F891 /* Base */,
+				E90827392D6DA53400E9F891 /* pt-BR */,
+				E908273B2D6DA54200E9F891 /* pl */,
+				E908273D2D6DA54A00E9F891 /* hi */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E90827422D6DA55C00E9F891 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90827412D6DA55C00E9F891 /* en */,
+				E90827432D6DA55F00E9F891 /* hi */,
+				E90827442D6DA56000E9F891 /* pl */,
+				E90827452D6DA56200E9F891 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E90827162D6D6C4800E9F891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E90827172D6D6C4800E9F891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E90827192D6D6C4800E9F891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF54A092D03C7466F18B95B /* Pods-DragonSlotDynasty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DragonSlotDynasty/DragonSlotDynasty.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DragonSlotDynasty/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DragonSlot Dynasty";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.dynasty.DragonSlotDynasty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DragonSlotDynasty/DragonSlotDynasty-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E908271A2D6D6C4800E9F891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666B6DD07D1B161370DC9C2C /* Pods-DragonSlotDynasty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DragonSlotDynasty/DragonSlotDynasty.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DragonSlotDynasty/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DragonSlot Dynasty";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.dynasty.DragonSlotDynasty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DragonSlotDynasty/DragonSlotDynasty-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E908271C2D6D6C4800E9F891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.dynasty.DragonSlotDynastyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragonSlotDynasty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DragonSlotDynasty";
+			};
+			name = Debug;
+		};
+		E908271D2D6D6C4800E9F891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.dynasty.DragonSlotDynastyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragonSlotDynasty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DragonSlotDynasty";
+			};
+			name = Release;
+		};
+		E908271F2D6D6C4800E9F891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.dynasty.DragonSlotDynastyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DragonSlotDynasty;
+			};
+			name = Debug;
+		};
+		E90827202D6D6C4800E9F891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.dynasty.DragonSlotDynastyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DragonSlotDynasty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E90826E92D6D6C4500E9F891 /* Build configuration list for PBXProject "DragonSlotDynasty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90827162D6D6C4800E9F891 /* Debug */,
+				E90827172D6D6C4800E9F891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90827182D6D6C4800E9F891 /* Build configuration list for PBXNativeTarget "DragonSlotDynasty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90827192D6D6C4800E9F891 /* Debug */,
+				E908271A2D6D6C4800E9F891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E908271B2D6D6C4800E9F891 /* Build configuration list for PBXNativeTarget "DragonSlotDynastyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E908271C2D6D6C4800E9F891 /* Debug */,
+				E908271D2D6D6C4800E9F891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E908271E2D6D6C4800E9F891 /* Build configuration list for PBXNativeTarget "DragonSlotDynastyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E908271F2D6D6C4800E9F891 /* Debug */,
+				E90827202D6D6C4800E9F891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E90826E62D6D6C4500E9F891 /* Project object */;
+}
