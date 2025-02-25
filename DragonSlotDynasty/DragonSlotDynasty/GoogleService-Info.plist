@@ -9,7 +9,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.app.dynasty.DragonSlotDynasty</string>
+	<string>com.app.dragon.DragonSlotDynasty</string>
 	<key>PROJECT_ID</key>
 	<string>dragonslotdynasty</string>
 	<key>STORAGE_BUCKET</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:837101376343:ios:cac3c394ed2621f9c8e412</string>
+	<string>1:837101376343:ios:e49b7698c0d5ed2fc8e412</string>
 </dict>
 </plist>

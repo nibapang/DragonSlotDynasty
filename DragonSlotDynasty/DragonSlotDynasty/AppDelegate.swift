@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,AppsFlyerLibDelegate {
         
         let appsFlyer = AppsFlyerLib.shared()
         appsFlyer.appsFlyerDevKey = UIViewController.dynasty_AppsFlyerDevKey()
-        appsFlyer.appleAppID = "6742438471"
+        appsFlyer.appleAppID = "6742445591"
         appsFlyer.waitForATTUserAuthorization(timeoutInterval: 51)
         appsFlyer.delegate = self
         return true

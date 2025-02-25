@@ -18,7 +18,7 @@ class DynastyPrivacyWebVC: UIViewController, WKScriptMessageHandler, WKNavigatio
     var backAction: (() -> Void)?
     var privacyData: [Any]?
     @objc var url: String?
-    let dynastyPrivacyUrl = "https://www.termsfeed.com/live/04e84545-1d19-4cb9-b785-f7385bb7990f"
+    let dynastyPrivacyUrl = "https://www.termsfeed.com/live/7c6cc7ab-e3fc-42c7-bf74-2769be84f0ee"
     
     override func viewDidLoad() {
         super.viewDidLoad()

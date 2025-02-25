@@ -47,7 +47,5 @@
 			</array>
 		</dict>
 	</dict>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>DragonSlot Dynasty collects device interaction data to enhance gameplay, optimize performance, and provide personalized experiences. This data helps us improve game features, deliver updates, and ensure a smooth gaming experience</string>
 </dict>
 </plist>

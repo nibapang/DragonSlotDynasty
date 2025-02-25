@@ -26,8 +26,8 @@
 		E90827302D6D760800E9F891 /* UIViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = E908272F2D6D760800E9F891 /* UIViewController+Ext.m */; };
 		E90827322D6D779200E9F891 /* DynastyStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827312D6D779200E9F891 /* DynastyStartVC.swift */; };
 		E90827352D6D9EEF00E9F891 /* DynastyNavCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827342D6D9EEF00E9F891 /* DynastyNavCon.swift */; };
-		E90827372D6DA16200E9F891 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E90827362D6DA16100E9F891 /* GoogleService-Info.plist */; };
 		E90827402D6DA55C00E9F891 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E90827422D6DA55C00E9F891 /* Localizable.strings */; };
+		E908274A2D6DBE2900E9F891 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E90827492D6DBE2900E9F891 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +76,6 @@
 		E90827312D6D779200E9F891 /* DynastyStartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyStartVC.swift; sourceTree = "<group>"; };
 		E90827332D6D78BC00E9F891 /* DragonSlotDynasty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DragonSlotDynasty.entitlements; sourceTree = "<group>"; };
 		E90827342D6D9EEF00E9F891 /* DynastyNavCon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynastyNavCon.swift; sourceTree = "<group>"; };
-		E90827362D6DA16100E9F891 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E908273A2D6DA54200E9F891 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
 		E908273B2D6DA54200E9F891 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		E908273C2D6DA54A00E9F891 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
@@ -87,6 +86,7 @@
 		E90827462D6DADC200E9F891 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
 		E90827472D6DADC200E9F891 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		E90827482D6DADC200E9F891 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E90827492D6DBE2900E9F891 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 		E90826F02D6D6C4500E9F891 /* DragonSlotDynasty */ = {
 			isa = PBXGroup;
 			children = (
-				E90827362D6DA16100E9F891 /* GoogleService-Info.plist */,
+				E90827492D6DBE2900E9F891 /* GoogleService-Info.plist */,
 				E90827332D6D78BC00E9F891 /* DragonSlotDynasty.entitlements */,
 				E90826F12D6D6C4500E9F891 /* AppDelegate.swift */,
 				E90826F32D6D6C4500E9F891 /* SceneDelegate.swift */,
@@ -312,7 +312,7 @@
 			files = (
 				E90827402D6DA55C00E9F891 /* Localizable.strings in Resources */,
 				E90826FE2D6D6C4700E9F891 /* LaunchScreen.storyboard in Resources */,
-				E90827372D6DA16200E9F891 /* GoogleService-Info.plist in Resources */,
+				E908274A2D6DBE2900E9F891 /* GoogleService-Info.plist in Resources */,
 				E90826FB2D6D6C4700E9F891 /* Assets.xcassets in Resources */,
 				E90826F92D6D6C4500E9F891 /* Main.storyboard in Resources */,
 			);
@@ -612,6 +612,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DragonSlotDynasty/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "DragonSlot Dynasty";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "DragonSlot Dynasty collects device interaction data to enhance gameplay, optimize performance, and provide personalized experiences. This data helps us improve game features, deliver updates, and ensure a smooth gaming experience";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -623,7 +624,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.dynasty.DragonSlotDynasty;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.dragon.DragonSlotDynasty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -650,6 +651,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DragonSlotDynasty/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "DragonSlot Dynasty";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "DragonSlot Dynasty collects device interaction data to enhance gameplay, optimize performance, and provide personalized experiences. This data helps us improve game features, deliver updates, and ensure a smooth gaming experience";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -661,7 +663,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.dynasty.DragonSlotDynasty;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.dragon.DragonSlotDynasty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
