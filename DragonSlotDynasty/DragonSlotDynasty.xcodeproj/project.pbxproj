@@ -28,6 +28,7 @@
 		E90827352D6D9EEF00E9F891 /* DynastyNavCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90827342D6D9EEF00E9F891 /* DynastyNavCon.swift */; };
 		E90827402D6DA55C00E9F891 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E90827422D6DA55C00E9F891 /* Localizable.strings */; };
 		E908274A2D6DBE2900E9F891 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E90827492D6DBE2900E9F891 /* GoogleService-Info.plist */; };
+		E9154E3E2D6FF6DD00DF0C0A /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9154E3D2D6FF6DC00DF0C0A /* AppTrackingTransparency.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		E90827472D6DADC200E9F891 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		E90827482D6DADC200E9F891 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E90827492D6DBE2900E9F891 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E9154E3D2D6FF6DC00DF0C0A /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9439D0DACFB23405ED873569 /* Pods_DragonSlotDynasty.framework in Frameworks */,
+				E9154E3E2D6FF6DD00DF0C0A /* AppTrackingTransparency.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +197,7 @@
 		F48E3FC3E677C76806B462D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E9154E3D2D6FF6DC00DF0C0A /* AppTrackingTransparency.framework */,
 				8DAC9D72FAC058B1DABBB9AA /* Pods_DragonSlotDynasty.framework */,
 			);
 			name = Frameworks;
@@ -608,13 +612,13 @@
 				CODE_SIGN_ENTITLEMENTS = DragonSlotDynasty/DragonSlotDynasty.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DragonSlotDynasty/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "DragonSlot Dynasty";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "DragonSlot Dynasty collects device interaction data to enhance gameplay, optimize performance, and provide personalized experiences. This data helps us improve game features, deliver updates, and ensure a smooth gaming experience";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -647,13 +651,13 @@
 				CODE_SIGN_ENTITLEMENTS = DragonSlotDynasty/DragonSlotDynasty.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DragonSlotDynasty/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "DragonSlot Dynasty";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "DragonSlot Dynasty collects device interaction data to enhance gameplay, optimize performance, and provide personalized experiences. This data helps us improve game features, deliver updates, and ensure a smooth gaming experience";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
